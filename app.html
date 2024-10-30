@@ -1,0 +1,108 @@
+<!DOCTYPE html>
+<html lang="es">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Descarga nuestra app - MindTrack</title>
+    <style>
+      body {
+        font-family: Arial, sans-serif;
+        background: linear-gradient(to right, #a0c4ff, #c0deff);
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        height: 100vh;
+        margin: 0;
+      }
+
+      .container {
+        display: flex;
+        align-items: center;
+        gap: 30px;
+      }
+
+      .phone-mockup {
+        position: relative;
+        width: 250px;
+        height: 500px;
+        background-size: cover;
+        background-position: center;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+      }
+
+      .start-text {
+        font-size: 14px;
+        color: #4a4a4a;
+        margin-top: 10px;
+      }
+
+      .app-info {
+        text-align: center;
+        color: #334e68;
+      }
+
+      .app-info h2 {
+        font-size: 40px;
+        margin-left: 18%;
+      }
+
+      .app-info p {
+        font-size: 14px;
+        color: #707070;
+        margin: 5px 0 20px;
+        margin-left: 18%;
+      }
+
+      .store-buttons {
+        display: flex;
+        gap: 10px;
+        justify-content: center;
+        margin-left: 18%;
+      }
+
+      .store-buttons img {
+        width: 120px;
+        cursor: pointer;
+      }
+
+      .back-btn {
+        width: 15%;
+        padding: 6px;
+        background-color: #b9b9b9;
+        color: rgb(51, 74, 77);
+        border: none;
+        border-radius: 5px;
+        font-size: 12px;
+        cursor: pointer;
+        margin-top: 20px;
+        margin-left: 19%;
+        text-align: center;
+        display: inline-block;
+      }
+
+      .back-btn:hover {
+        background-color: #5b6875;
+      }
+    </style>
+  </head>
+  <body>
+    <div class="container">
+      <div class="phone-mockup">
+        <img src="img/appImg.png" alt="Phone" />
+      </div>
+
+      <div class="app-info">
+        <h2>Descarga nuestra app</h2>
+        <p>Disponible para iOS y Android</p>
+        <div class="store-buttons">
+          <img src="img/appstoreImg.png" alt="App Store" />
+          <img src="img/playstoreImg.png" alt="Google Play" />
+        </div>
+        <a href="index.html" class="back-btn">Regresar</a>
+      </div>
+    </div>
+  </body>
+</html>
